@@ -21,7 +21,7 @@ across all endpoints whenever an exception occurs during an API call.
 
 Given any 10-digit Nigerian bank account number, 
 this endpoint returns a JSON array of banks where 
-that account number could be valid.
+that account number could belong to.
 
 I used an application of this algorithm to cut down the 
 list of banks on a USSD  from  about 23 to less than 7 
