@@ -8,7 +8,7 @@ for the
 
 NB: You can also use this repo as a guide to creating custom error responses that
 handle exceptions in the backend, which give a uniform format of error responses
-across all endpoints whenever an exception is called during the API call. 
+across all endpoints whenever an exception occurs during an API call. 
 
 ### Setting up
 - Clone the repo.
