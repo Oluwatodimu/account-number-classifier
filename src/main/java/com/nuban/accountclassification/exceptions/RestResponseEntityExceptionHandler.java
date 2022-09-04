@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
+import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
 /**
  * Author : Todimu Isewon
@@ -15,7 +16,7 @@ import org.springframework.web.context.request.WebRequest;
  */
 
 @ControllerAdvice
-public class RestResponseEntityExceptionHandler {
+public class RestResponseEntityExceptionHandler extends ResponseEntityExceptionHandler {
 
     @ExceptionHandler(value = { RuntimeException.class })
     protected ResponseEntity<Object> handleBadRequestAlert(RuntimeException ex, WebRequest request) {
@@ -24,7 +25,6 @@ public class RestResponseEntityExceptionHandler {
                 .code(ErrorMessages.RUNTIME_EXCEPTION.getCode())
                 .message(ErrorMessages.RUNTIME_EXCEPTION.getMessage())
                 .build();
-//        return handleExceptionInternal(ex, bodyOfResponse, new HttpHeaders(), HttpStatus.INTERNAL_SERVER_ERROR, request);
-        return null;
+        return handleExceptionInternal(ex, bodyOfResponse, new HttpHeaders(), HttpStatus.INTERNAL_SERVER_ERROR, request);
     }
 }
