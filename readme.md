@@ -1,0 +1,109 @@
+## NUBAN Algorithm
+
+This repo contains the algorithm for validating 
+NUBAN (Nigeria Uniform Bank Account Number) in Java. 
+The algorithm is based on [the CBN specification](https://www.cbn.gov.ng/OUT/2011/CIRCULARS/BSPD/NUBAN%20PROPOSALS%20V%200%204-%2003%2009%202010.PDF)
+for the 
+10-digit NUBAN. 
+
+### Setting up
+- Clone the repo.
+- Ensure Java 11 is installed on your machine.
+
+
+### API Endpoints
+
+1. **Get possible account banks**
+
+Given any 10-digit Nigerian bank account number, 
+this endpoint returns a JSON array of banks where 
+that account number could be valid.
+
+I used an application of this algorithm to cut down the 
+list of banks on a USSD  from  about 23 to less than 7 
+after the user enters their 10 digit bank account number 
+(NUBAN). This was a great improvement, keeping in mind that 
+the maximum number of characters that can be displayed at  time
+on the USSD interface is 160.
+
+_Endpoints And Response Samples_
+
+`GET {{base_url}}/api/v1/bank-list/{accountNumber}`
+
+_Sample request_
+
+`GET {{base_url}}/api/v1/bank-list/3093255991`
+
+_Sample response_
+
+```json
+[
+  {
+    "bankName": "Access Bank",
+    "uniqueCbnBankCode": "044"
+  },
+  {
+    "bankName": "EcoMobile",
+    "uniqueCbnBankCode": "307"
+  },
+  {
+    "bankName": "Fidelity Mobile",
+    "uniqueCbnBankCode": "318"
+  },
+  {
+    "bankName": "First Bank",
+    "uniqueCbnBankCode": "011"
+  },
+  {
+    "bankName": "Omoluabi Mortgage Bank",
+    "uniqueCbnBankCode": "990"
+  },
+  {
+    "bankName": "PayAttitude Online",
+    "uniqueCbnBankCode": "329"
+  },
+  {
+    "bankName": "UBA",
+    "uniqueCbnBankCode": "033"
+  }
+]
+```
+
+_Sample request_
+
+`GET {{base_url}}/api/v1/bank-list/2209327281`
+
+_Sample response_
+
+```json
+[
+  {
+    "bankName": "FBNMobile",
+    "uniqueCbnBankCode": "309"
+  },
+  {
+    "bankName": "NPF MicroFinance Bank",
+    "uniqueCbnBankCode": "552"
+  },
+  {
+    "bankName": "Providus Bank",
+    "uniqueCbnBankCode": "101"
+  },
+  {
+    "bankName": "Standard Chartered Bank",
+    "uniqueCbnBankCode": "068"
+  },
+  {
+    "bankName": "Wema Bank",
+    "uniqueCbnBankCode": "035"
+  },
+  {
+    "bankName": "Zenith Bank",
+    "uniqueCbnBankCode": "057"
+  }
+]
+```
+
+
+
+
