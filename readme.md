@@ -114,6 +114,8 @@ _Sample bad request_
 
 _Sample response_
 
+This custom response was handled using the @ControllerAdvice annotation
+
 ```json
 {
   "code": 101,
