@@ -1,6 +1,5 @@
 package com.nuban.accountclassification.enumerations;
 
-import lombok.AllArgsConstructor;
 
 /**
  * Author : Todimu Isewon
