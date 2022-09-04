@@ -6,6 +6,10 @@ The algorithm is based on [the CBN specification](https://www.cbn.gov.ng/OUT/201
 for the 
 10-digit NUBAN. 
 
+NB: You can also use this repo as a guide to creating custom error responses that
+handle exceptions in the backend, which give a uniform format of error responses
+across all endpoints whenever an exception is called during the API call. 
+
 ### Setting up
 - Clone the repo.
 - Ensure Java 11 is installed on your machine.
@@ -103,6 +107,21 @@ _Sample response_
   }
 ]
 ```
+
+_Sample bad request_
+
+`GET {{base_url}}/api/v1/bank-list/12345`
+
+_Sample response_
+
+```json
+{
+  "code": 101,
+  "message": "internal server error",
+  "data": null
+}
+```
+
 
 
 
