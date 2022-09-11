@@ -24,7 +24,7 @@ this endpoint returns a JSON array of banks where
 that account number could belong to.
 
 I used an application of this algorithm to cut down the 
-list of banks on a USSD  from  about 23 to less than 7 
+list of banks on a USSD app from  about 23 to less than 7 
 after the user enters their 10 digit bank account number 
 (NUBAN). This was a great improvement, keeping in mind that 
 the maximum number of characters that can be displayed at  time
