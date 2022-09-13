@@ -12,7 +12,11 @@ across all endpoints whenever an exception occurs during an API call.
 
 ### Setting up
 - Clone the repo.
-- Ensure Java 11 is installed on your machine.
+- Ensure Java 11 is installed on your machine. To set this up, click [here for Mac users](https://www.youtube.com/watch?v=oiqKK0FOjK0), 
+[here for linux users](https://www.youtube.com/watch?v=8HPi2uNDWHU) and [here for windows users](https://www.youtube.com/watch?v=RBuZHg6eyIs).
+- After navigating to the root folder, run the following command
+  `./mvnw spring-boot:run`.
+
 
 
 ### API Endpoints
