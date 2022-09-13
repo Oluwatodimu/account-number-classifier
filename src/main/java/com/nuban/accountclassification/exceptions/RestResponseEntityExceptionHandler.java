@@ -1,6 +1,6 @@
 package com.nuban.accountclassification.exceptions;
 
-import com.nuban.accountclassification.dto.CustomErrorResponseDto;
+import com.nuban.accountclassification.dto.CustomApiResponseDto;
 import com.nuban.accountclassification.enumerations.ErrorMessages;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -20,7 +20,7 @@ public class RestResponseEntityExceptionHandler extends ResponseEntityExceptionH
 
     @ExceptionHandler(value = { RuntimeException.class })
     protected ResponseEntity<Object> handleBadRequestAlert(RuntimeException ex, WebRequest request) {
-        CustomErrorResponseDto bodyOfResponse = CustomErrorResponseDto
+        CustomApiResponseDto bodyOfResponse = CustomApiResponseDto
                 .builder()
                 .code(ErrorMessages.RUNTIME_EXCEPTION.getCode())
                 .message(ErrorMessages.RUNTIME_EXCEPTION.getMessage())

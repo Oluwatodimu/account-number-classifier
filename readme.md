@@ -41,36 +41,40 @@ _Sample request_
 _Sample response_
 
 ```json
-[
-  {
-    "bankName": "Access Bank",
-    "uniqueCbnBankCode": "044"
-  },
-  {
-    "bankName": "EcoMobile",
-    "uniqueCbnBankCode": "307"
-  },
-  {
-    "bankName": "Fidelity Mobile",
-    "uniqueCbnBankCode": "318"
-  },
-  {
-    "bankName": "First Bank",
-    "uniqueCbnBankCode": "011"
-  },
-  {
-    "bankName": "Omoluabi Mortgage Bank",
-    "uniqueCbnBankCode": "990"
-  },
-  {
-    "bankName": "PayAttitude Online",
-    "uniqueCbnBankCode": "329"
-  },
-  {
-    "bankName": "UBA",
-    "uniqueCbnBankCode": "033"
-  }
-]
+{
+  "code": 200,
+  "message": "Successful call",
+  "data": [
+    {
+      "bankName": "Access Bank",
+      "uniqueCbnBankCode": "044"
+    },
+    {
+      "bankName": "EcoMobile",
+      "uniqueCbnBankCode": "307"
+    },
+    {
+      "bankName": "Fidelity Mobile",
+      "uniqueCbnBankCode": "318"
+    },
+    {
+      "bankName": "First Bank",
+      "uniqueCbnBankCode": "011"
+    },
+    {
+      "bankName": "Omoluabi Mortgage Bank",
+      "uniqueCbnBankCode": "990"
+    },
+    {
+      "bankName": "PayAttitude Online",
+      "uniqueCbnBankCode": "329"
+    },
+    {
+      "bankName": "UBA",
+      "uniqueCbnBankCode": "033"
+    }
+  ]
+}
 ```
 
 _Sample request_
@@ -80,32 +84,36 @@ _Sample request_
 _Sample response_
 
 ```json
-[
-  {
-    "bankName": "FBNMobile",
-    "uniqueCbnBankCode": "309"
-  },
-  {
-    "bankName": "NPF MicroFinance Bank",
-    "uniqueCbnBankCode": "552"
-  },
-  {
-    "bankName": "Providus Bank",
-    "uniqueCbnBankCode": "101"
-  },
-  {
-    "bankName": "Standard Chartered Bank",
-    "uniqueCbnBankCode": "068"
-  },
-  {
-    "bankName": "Wema Bank",
-    "uniqueCbnBankCode": "035"
-  },
-  {
-    "bankName": "Zenith Bank",
-    "uniqueCbnBankCode": "057"
-  }
-]
+{
+  "code": 200,
+  "message": "Successful call",
+  "data": [
+    {
+      "bankName": "FBNMobile",
+      "uniqueCbnBankCode": "309"
+    },
+    {
+      "bankName": "NPF MicroFinance Bank",
+      "uniqueCbnBankCode": "552"
+    },
+    {
+      "bankName": "Providus Bank",
+      "uniqueCbnBankCode": "101"
+    },
+    {
+      "bankName": "Standard Chartered Bank",
+      "uniqueCbnBankCode": "068"
+    },
+    {
+      "bankName": "Wema Bank",
+      "uniqueCbnBankCode": "035"
+    },
+    {
+      "bankName": "Zenith Bank",
+      "uniqueCbnBankCode": "057"
+    }
+  ]
+}
 ```
 
 _Sample bad request_

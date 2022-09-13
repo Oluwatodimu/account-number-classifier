@@ -2,6 +2,8 @@ package com.nuban.accountclassification.web.rest;
 
 
 import com.nuban.accountclassification.dto.BankDataDto;
+import com.nuban.accountclassification.dto.CustomApiResponseDto;
+import com.nuban.accountclassification.enumerations.SuccessMessage;
 import com.nuban.accountclassification.service.BankAccountClassifierService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,7 +30,7 @@ public class BankAccountValidationResource {
     private BankAccountClassifierService bankAccountClassifierService;
 
     @GetMapping("/bank-list/{accountNumber}")
-    public List<BankDataDto> getListOfPossibleBanks(@PathVariable String accountNumber) {
+    public CustomApiResponseDto getListOfPossibleBanks(@PathVariable String accountNumber) {
         log.debug("REST request to get referral data : {}", accountNumber);
 
         List<BankDataDto> listOfPossibleBanks = bankAccountClassifierService.getListOfPossibleBanks(accountNumber);
@@ -37,7 +39,14 @@ public class BankAccountValidationResource {
             throw new RuntimeException("Bank account does not belong to any bank");
         }
 
-        return listOfPossibleBanks;
+        CustomApiResponseDto customApiResponseDto = CustomApiResponseDto
+                .builder()
+                .code(SuccessMessage.SUCCESS_MESSAGE.getCode())
+                .message(SuccessMessage.SUCCESS_MESSAGE.getMessage())
+                .data(listOfPossibleBanks)
+                .build();
+
+        return customApiResponseDto;
     }
 
 }

@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class CustomErrorResponseDto {
+public class CustomApiResponseDto {
     private Integer code;
     private String message;
     private Object data;
