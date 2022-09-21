@@ -1,0 +1,274 @@
+[
+  {
+    "bankName": "Access Bank",
+    "uniqueCbnBankCode": "044"
+  },
+  {
+    "bankName": "Access Money",
+    "uniqueCbnBankCode": "323"
+  },
+  {
+    "bankName": "ASO Savings and & Loans",
+    "uniqueCbnBankCode": "401"
+  },
+  {
+    "bankName": "Cellulant",
+    "uniqueCbnBankCode": "317"
+  },
+  {
+    "bankName": "ChamsMobile",
+    "uniqueCbnBankCode": "303"
+  },
+  {
+    "bankName": "Citi Bank",
+    "uniqueCbnBankCode": "023"
+  },
+  {
+    "bankName": "Coronation Merchant Bank",
+    "uniqueCbnBankCode": "559"
+  },
+  {
+    "bankName": "Covenant Microfinance Bank",
+    "uniqueCbnBankCode": "551"
+  },
+  {
+    "bankName": "Diamond Bank",
+    "uniqueCbnBankCode": "063"
+  },
+  {
+    "bankName": "Eartholeum",
+    "uniqueCbnBankCode": "302"
+  },
+  {
+    "bankName": "Ecobank Nigeria",
+    "uniqueCbnBankCode": "050"
+  },
+  {
+    "bankName": "EcoMobile",
+    "uniqueCbnBankCode": "307"
+  },
+  {
+    "bankName": "Enterprise Bank",
+    "uniqueCbnBankCode": "084"
+  },
+  {
+    "bankName": "eTranzact",
+    "uniqueCbnBankCode": "306"
+  },
+  {
+    "bankName": "FBNMobile",
+    "uniqueCbnBankCode": "309"
+  },
+  {
+    "bankName": "Fidelity Bank",
+    "uniqueCbnBankCode": "070"
+  },
+  {
+    "bankName": "Fidelity Mobile",
+    "uniqueCbnBankCode": "318"
+  },
+  {
+    "bankName": "First Bank",
+    "uniqueCbnBankCode": "011"
+  },
+  {
+    "bankName": "FCMB",
+    "uniqueCbnBankCode": "214"
+  },
+  {
+    "bankName": "FET",
+    "uniqueCbnBankCode": "314"
+  },
+  {
+    "bankName": "Fortis Microfinance Bank",
+    "uniqueCbnBankCode": "501"
+  },
+  {
+    "bankName": "Fortis Mobile",
+    "uniqueCbnBankCode": "308"
+  },
+  {
+    "bankName": "FSDH",
+    "uniqueCbnBankCode": "601"
+  },
+  {
+    "bankName": "Globus Bank",
+    "uniqueCbnBankCode": "103"
+  },
+  {
+    "bankName": "GTB",
+    "uniqueCbnBankCode": "058"
+  },
+  {
+    "bankName": "GTMobile",
+    "uniqueCbnBankCode": "315"
+  },
+  {
+    "bankName": "Hedonmark",
+    "uniqueCbnBankCode": "324"
+  },
+  {
+    "bankName": "Heritage Bank",
+    "uniqueCbnBankCode": "030"
+  },
+  {
+    "bankName": "Imperial Homes Mortgage Bank",
+    "uniqueCbnBankCode": "415"
+  },
+  {
+    "bankName": "Jaiz Bank",
+    "uniqueCbnBankCode": "301"
+  },
+  {
+    "bankName": "Jubilee Life Mortgage Bank",
+    "uniqueCbnBankCode": "402"
+  },
+  {
+    "bankName": "Keystone Bank",
+    "uniqueCbnBankCode": "082"
+  },
+  {
+    "bankName": "Kuda Bank",
+    "uniqueCbnBankCode": "611"
+  },
+  {
+    "bankName": "Mainstreet bank",
+    "uniqueCbnBankCode": "014"
+  },
+  {
+    "bankName": "Mkudi",
+    "uniqueCbnBankCode": "313"
+  },
+  {
+    "bankName": "MoneyBox",
+    "uniqueCbnBankCode": "325"
+  },
+  {
+    "bankName": "NIP Virtual Bank",
+    "uniqueCbnBankCode": "999"
+  },
+  {
+    "bankName": "NPF MicroFinance Bank",
+    "uniqueCbnBankCode": "552"
+  },
+  {
+    "bankName": "Omoluabi Mortgage Bank",
+    "uniqueCbnBankCode": "990"
+  },
+  {
+    "bankName": "Pagatech",
+    "uniqueCbnBankCode": "327"
+  },
+  {
+    "bankName": "Page MFBank",
+    "uniqueCbnBankCode": "560"
+  },
+  {
+    "bankName": "Parralex",
+    "uniqueCbnBankCode": "526"
+  },
+  {
+    "bankName": "PayAttitude Online",
+    "uniqueCbnBankCode": "329"
+  },
+  {
+    "bankName": "Paycom",
+    "uniqueCbnBankCode": "305"
+  },
+  {
+    "bankName": "Polaris Bank",
+    "uniqueCbnBankCode": "076"
+  },
+  {
+    "bankName": "Providus Bank",
+    "uniqueCbnBankCode": "101"
+  },
+  {
+    "bankName": "ReadyCash (Parkway)",
+    "uniqueCbnBankCode": "311"
+  },
+  {
+    "bankName": "Rubies Bank",
+    "uniqueCbnBankCode": "587"
+  },
+  {
+    "bankName": "SafeTrust Mortgage Bank",
+    "uniqueCbnBankCode": "403"
+  },
+  {
+    "bankName": "Skye Bank",
+    "uniqueCbnBankCode": "076"
+  },
+  {
+    "bankName": "Stanbic IBTC Bank",
+    "uniqueCbnBankCode": "221"
+  },
+  {
+    "bankName": "Stanbic Mobile Money",
+    "uniqueCbnBankCode": "304"
+  },
+  {
+    "bankName": "Standard Chartered Bank",
+    "uniqueCbnBankCode": "068"
+  },
+  {
+    "bankName": "Sterling Bank",
+    "uniqueCbnBankCode": "232"
+  },
+  {
+    "bankName": "Sterling Mobile",
+    "uniqueCbnBankCode": "326"
+  },
+  {
+    "bankName": "Suntrust",
+    "uniqueCbnBankCode": "100"
+  },
+  {
+    "bankName": "TagPay",
+    "uniqueCbnBankCode": "328"
+  },
+  {
+    "bankName": "TeasyMobile",
+    "uniqueCbnBankCode": "319"
+  },
+  {
+    "bankName": "Titan Trust Bank",
+    "uniqueCbnBankCode": "102"
+  },
+  {
+    "bankName": "Trustbond",
+    "uniqueCbnBankCode": "523"
+  },
+  {
+    "bankName": "Union Bank",
+    "uniqueCbnBankCode": "032"
+  },
+  {
+    "bankName": "UBA",
+    "uniqueCbnBankCode": "033"
+  },
+  {
+    "bankName": "Unity Bank",
+    "uniqueCbnBankCode": "215"
+  },
+  {
+    "bankName": "V Bank",
+    "uniqueCbnBankCode": "566"
+  },
+  {
+    "bankName": "VTNetworks",
+    "uniqueCbnBankCode": "320"
+  },
+  {
+    "bankName": "Wema Bank",
+    "uniqueCbnBankCode": "035"
+  },
+  {
+    "bankName": "Zenith Bank",
+    "uniqueCbnBankCode": "057"
+  },
+  {
+    "bankName": "Zenith Mobile",
+    "uniqueCbnBankCode": "322"
+  }
+]

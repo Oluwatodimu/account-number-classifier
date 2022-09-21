@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -30,7 +31,7 @@ public class BankAccountValidationResource {
     private BankAccountClassifierService bankAccountClassifierService;
 
     @GetMapping("/bank-list/{accountNumber}")
-    public CustomApiResponseDto getListOfPossibleBanks(@PathVariable String accountNumber) {
+    public CustomApiResponseDto getListOfPossibleBanks(@PathVariable String accountNumber) throws IOException {
         log.debug("REST request to get referral data : {}", accountNumber);
 
         List<BankDataDto> listOfPossibleBanks = bankAccountClassifierService.getListOfPossibleBanks(accountNumber);
