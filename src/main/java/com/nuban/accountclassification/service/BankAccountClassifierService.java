@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -19,10 +18,10 @@ import java.util.stream.Collectors;
 @Service
 public class BankAccountClassifierService {
 
-    public static final int MOD_VALUE = 10;
-    private Long ACCOUNT_NUMBER_LENGTH = 10L;
-    private Long SERIAL_NUMBER_LENGTH = 9L;
-    private String SEED = "373373373373";
+    private static final int MOD_VALUE = 10;
+    private static final Long ACCOUNT_NUMBER_LENGTH = 10L;
+    private static final Long SERIAL_NUMBER_LENGTH = 9L;
+    private static final String SEED = "373373373373";
 
     /**
      * Function to return list of possible bank
