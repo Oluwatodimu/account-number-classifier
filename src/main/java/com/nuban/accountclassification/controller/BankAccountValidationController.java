@@ -1,4 +1,4 @@
-package com.nuban.accountclassification.web.rest;
+package com.nuban.accountclassification.controller;
 
 
 import com.nuban.accountclassification.dto.BankDataDto;
@@ -23,9 +23,9 @@ import java.util.List;
 
 @RestController
 @RequestMapping("api/v1")
-public class BankAccountValidationResource {
+public class BankAccountValidationController {
 
-    private final Logger log = LoggerFactory.getLogger(BankAccountValidationResource.class);
+    private final Logger log = LoggerFactory.getLogger(BankAccountValidationController.class);
 
     @Autowired
     private BankAccountClassifierService bankAccountClassifierService;
