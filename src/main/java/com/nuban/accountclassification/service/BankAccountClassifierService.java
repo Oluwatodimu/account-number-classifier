@@ -56,7 +56,8 @@ public class BankAccountClassifierService {
         ObjectMapper objectMapper = new ObjectMapper();
        List<BankDataDto> bankDataList = objectMapper.readValue(
                new File("src/main/resources/bank_list.json"),
-               new TypeReference<List<BankDataDto>>() {}
+               new TypeReference<>() {
+               }
        );
 
         return bankDataList;
